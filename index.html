@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "utf-8" href = "images/open-book.jpeg">
+        <link rel = "stylesheet" href = "styles.css">
+        <script src = "script.js" defer></script>
+        <title>Hearth - your online library</title>
+    </head>
+    <body>
+        <div class = left>
+            <img src = "images/annie-spratt-books.jpg"></div>
+            <div class = "logo"><img class = "book" src = "images/open-book.png"> Hearth</div>
+            <p>Photo by Annie Spratt</p>
+        </div>
+        <div class = "right">
+            <div class = "introduction">
+                <p>This is not a real service! Book-lovers can get cozy and curl up with their favorite stories 
+                    through our online library service.  Sign up today for more information and become a member of 
+                    our Hearth family!
+                </p>
+            </div>
+            <div class = "info">
+                <p class = "start">Let's get started!</p>
+                <form action = "" method = post>
+                    <div class = form-info>
+                        <div class = "first-name">
+                            <label for = "first_name">First name</label>
+                            <input type = "text" name = "first_name" id = "first_name" placeholder="Jane" required>
+                        </div>
+                        <div class = "last-name">
+                            <label for = "last_name">Last name</label>
+                            <input type = "text" name = "last_name" id = "last_name" placeholder="Doe" required>
+                        </div>
+                        <div class = "email">
+                            <label for = "email">Email</label>
+                            <input type = "email" name = "email" id = "email" placeholder="jane.doe@xxx.com" required>
+                        </div>
+                        <div class = "phone-number">
+                            <label for = "phone_number">Phone Number</label>
+                            <input type = "number" name = "phone_number" id = "phone_number" 
+                            placeholder="(xxx) xxx-xxxx" min = "1000000000" max="9999999999" required>
+                        </div>
+                        <div class = "password">
+                            <label for = "password">Create Password</label>
+                            <input type = "password" name = "password" id = "password" minlength = "8" required>
+                        </div>
+                        <div class = "confirm-password">
+                            <label for = "confirm_password">Confirm Password</label>
+                            <input type = "password" name = "confirm_password" id = "confirm_password" minlength="8" required>
+                        </div>
+                    </div>
+                    <div class = button>
+                        <button type = "submit" id = "createButton">Create Account</button>
+                        <p>Already have an account? <a href>Log In</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
